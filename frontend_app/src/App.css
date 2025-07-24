@@ -341,6 +341,30 @@
   }
 }
 
+/* AI Commentator (Tic Tac Toe) */
+.ai-commentator {
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  /* (other inline styles apply for maxWidth, border, borderRadius, etc.) */
+  border-radius: 10px;
+  margin: 0 auto 12px auto;
+  padding: 14px 20px 6px 20px;
+  max-width: 420px;
+  min-height: 38px;
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: .01em;
+  box-shadow: 0 1.5px 6px #e7eef866;
+  border: 1.5px solid var(--border-color);
+  text-align: center;
+  transition: background 0.18s, color 0.12s, box-shadow 0.13s;
+}
+.ai-commentator span[style*="font-weight: bold"] {
+  font-size: 1.35em;
+  margin-right: 7px;
+  vertical-align: top;
+}
+
 .theme-toggle {
   display: none !important;
 }
